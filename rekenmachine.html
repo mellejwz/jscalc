@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<link rel="stylesheet" style="text/css" href="style.css" />
+		<title>Rekenmachine</title>
+		<script src="java.js"></script>
+	</head>
+	<body>
+		<div id="container">
+		<form id="rekenmachine" name="rekenmachine">
+			<div id="display"><input id="vak1" type="text" name="vak1" readonly /><input id="vak2" type="text" name="vak2" readonly /><input id="vak3" type="text" name="vak3" readonly /><input id="vak4" type="text" name="vak4" readonly /><input id="antwoord" type="text" name="antwoord" readonly /></div>
+			<input class="cijfer" id="een" type="button" name="een" value="1" OnClick="rekenCijfer('1')" />
+			<input class="cijfer" id="twee" type="button" name="twee" value="2" OnClick="rekenCijfer('2')" />
+			<input class="cijfer" id="drie" type="button" name="drie" value="3" OnClick="rekenCijfer('3')" />
+			<input class="operator" id="plus" type="button" name="plus" value="+" OnClick="rekenTeken('+')" />
+			<input class="cijfer" id="vier" type="button" name="vier" value="4" OnClick="rekenCijfer('4')" />
+			<input class="cijfer" id="vijf" type="button" name="vijf" value="5" OnClick="rekenCijfer('5')" />
+			<input class="cijfer" id="zes" type="button" name="zes" value="6" OnClick="rekenCijfer('6')" />
+			<input class="operator" id="min" type="button" name="aftrekken" value="-" OnClick="rekenTeken('-')" />
+			<input class="cijfer" id="zeven" type="button" name="zeven" value="7" OnClick="rekenCijfer('7')" />
+			<input class="cijfer" id="acht" type="button" name="acht" value="8" OnClick="rekenCijfer('8')" />
+			<input class="cijfer" id="negen" type="button" name="negen" value="9" OnClick="rekenCijfer('9')" />
+			<input class="operator" id="keer" type="button" name="keer" value="x" OnClick="rekenTeken('x')" />
+			<input id="wis" type="button" OnClick="wisScherm()" value="C" />
+			<input class="cijfer" id="nul" type="button" name="nul" value="0" OnClick="rekenCijfer('0')" />
+			<input class="answer" type="button" name="is" value="=" OnClick="uitKomst()" />
+			<input class="operator" id="delen" type="button" name="delen" value="&#247" OnClick="rekenTeken('/')" />
+			<input class="operator" id="clear" type="button" name="clear" value="M-" OnClick="memoryClear()" />
+			<input class="operator" id="recall" type="button" name="recall" value="MR" OnClick="memoryRecall()" />
+			<input class="operator" id="memory" type="button" name="memory" value="M+" OnClick="memoryPlus()" />
+			<input class="operator" id="wortel" type="button" name="wortel" value="w" OnClick="wortelTrekken()" />
+		</form>
+		</div>
+	</body>
+</html>

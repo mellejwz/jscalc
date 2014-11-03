@@ -1,0 +1,267 @@
+*:focus{
+	outline:none;
+}
+#container{
+	width:400px;
+	margin:30px auto;
+}
+#rekenmachine{
+	width:400px;
+	height:580px;
+	border:2px solid #000;
+	background-color:#000;
+}
+.cijfer{
+	width:100px;
+	height:100px;
+	float:left;
+	font-size:75px;
+	font-weight:bold;
+	border:2px solid #000;
+	color:#000;
+	background-color:#ff0;
+}
+.cijfer:active{
+	width:90px;
+	height:90px;
+	margin:5px;
+	float:left;
+	font-size:65px;
+	font-weight:bold;
+	border:2px solid #000;
+	color:#000;
+	background-color:#ff0;
+}
+.operator{
+	width:100px;
+	height:100px;
+	float:left;
+	font-size:75px;
+	font-weight:bold;
+	border:2px solid #000;
+	color:#000;
+	background-color:#00f;
+}
+.operator:active{
+	width:90px;
+	height:90px;
+	margin:5px;
+	float:left;
+	font-size:65px;
+	font-weight:bold;
+	border:2px solid #000;
+	color:#000;
+	background-color:#00f;
+}
+#wis{
+	width:100px;
+	height:100px;
+	float:left;
+	font-size:75px;
+	font-weight:bold;
+	border:2px solid #000;
+	color:#000;
+	background-color:#f00;
+}
+#wis:active{
+	width:90px;
+	height:90px;
+	margin:5px;
+	font-size:65px;
+	font-weight:bold;
+	border:2px solid #000;
+	color:#000;
+	background-color:#f00;
+}
+.answer{
+	width:100px;
+	height:100px;
+	float:left;
+	font-size:75px;
+	font-weight:bold;
+	border:2px solid #000;
+	color:#000;
+	background-color:#0f0;
+}
+.answer:active{
+	width:90px;
+	height:90px;
+	margin:5px;
+	float:left;
+	font-size:65px;
+	font-weight:bold;
+	border:2px solid #000;
+	color:#000;
+	background-color:#0f0;
+}
+@font-face
+{
+    font-family: lcd;
+    src: url(lcd.ttf);
+}
+#vak1{
+	width:100px;
+	height:80px;
+	font-size:50px;
+	font-weight:bold;
+	font-family:lcd;
+	src: url('lcd.ttf');
+	background-color:#ddd;
+	cursor:default;
+	border:2px solid #000;
+	border-right:none;
+	text-align:center;
+	float:left;
+}
+#vak2{
+	width:35px;
+	height:80px;
+	font-size:40px;
+	font-weight:bold;
+	font-family:lcd;
+	src: url('lcd.ttf');
+	background-color:#ddd;
+	cursor:default;
+	border:2px solid #000;
+	border-left:none;
+	border-right:none;
+	text-align:center;
+	float:left;
+}
+#vak3{
+	width:100px;
+	height:80px;
+	font-size:50px;
+	font-weight:bold;
+	font-family:lcd;
+	src: url('lcd.ttf');
+	background-color:#ddd;
+	cursor:default;
+	border:2px solid #000;
+	border-left:none;
+	border-right:none;
+	text-align:center;
+	float:left;
+}
+#vak4{
+	width:25px;
+	height:80px;
+	font-size:50px;
+	color:#bbb;
+	background-color:#ddd;
+	cursor:default;
+	border:2px solid #000;
+	border-left:none;
+	border-right:none;
+	text-align:center;
+	float:left;
+}
+#antwoord{
+	width:140px;
+	height:80px;
+	font-size:40px;
+	font-weight:bold;
+	font-family:lcd;
+	src: url('lcd.ttf');
+	background-color:#ddd;
+	cursor:default;
+	border:2px solid #000;
+	border-left:none;
+	text-align:center;
+	float:left;
+}
+#error{
+	width:400px;
+	height:80px;
+	font-size:40px;
+	font-weight:bold;
+	font-family: LCD;
+	src: url('lcd.ttf');
+	background-color:#ddd;
+	cursor:default;
+	border:2px solid #000;
+	text-align:center;
+	float:left;
+}
+#recall{
+	width:100px;
+	height:100px;
+	float:left;
+	font-size:40px;
+	font-weight:bold;
+	border:2px solid #000;
+	color:#000;
+	background-color:#00f;
+}
+#memory{
+	width:100px;
+	height:100px;
+	float:left;
+	font-size:40px;
+	font-weight:bold;
+	border:2px solid #000;
+	color:#000;
+	background-color:#00f;
+}
+#recall:active{
+	width:90px;
+	height:90px;
+	margin:5px;
+	float:left;
+	font-size:35px;
+	font-weight:bold;
+	border:2px solid #000;
+	color:#000;
+	background-color:#00f;			
+}
+#memory:active{
+	width:90px;
+	height:90px;
+	margin:5px;
+	float:left;
+	font-size:35px;
+	font-weight:bold;
+	border:2px solid #000;
+	color:#000;
+	background-color:#00f;			
+}
+#clear{
+	width:100px;
+	height:100px;
+	float:left;
+	font-size:40px;
+	font-weight:bold;
+	border:2px solid #000;
+	color:#000;
+	background-color:#00f;
+}
+#clear:active{
+	width:90px;
+	height:90px;
+	margin:5px;
+	float:left;
+	font-size:35px;
+	font-weight:bold;
+	border:2px solid #000;
+	color:#000;
+	background-color:#00f;			
+}
+#info{
+	width:33px;
+	height:33px;
+	float:left;
+	font-size:25px;
+	font-weight:bold;
+	border:2px solid #000;
+	color:#000;
+	background-color:#00f;
+}
+#info:active{
+	width:30px;
+	height:90px;
+	font-size:22px;
+	font-weight:bold;
+	border:2px solid #000;
+	color:#000;
+	background-color:#00f;
+	}
